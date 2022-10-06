@@ -20,7 +20,7 @@ python -m pip install -r requirements.txt
 ## Run
 
 ```Bash
-unicorn tech_with_tim_example:app --reload
+uvicorn tech_with_tim_example:app --reload
 ```
 
 Go to http://127.0.0.1:8000
