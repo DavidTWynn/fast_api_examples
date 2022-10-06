@@ -25,3 +25,7 @@ uvicorn tech_with_tim_example:app --reload
 
 Go to http://127.0.0.1:8000
 Swagger docs at http://127.0.0.1:8000/docs
+
+## Resources
+
+https://www.youtube.com/watch?v=-ykeT6kk4bk
