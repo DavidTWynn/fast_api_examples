@@ -6,3 +6,22 @@
 ![Coding style](https://img.shields.io/badge/code%20style-black-000000.svg)
 
 Repo for learning FastAPI and storing examples
+
+## Setup
+
+```Bash
+git clone https://github.com/DavidTWynn/fast_api_examples
+cd fast_api_examples
+python -m venv venv
+venv\Scripts\activate
+python -m pip install -r requirements.txt
+```
+
+## Run
+
+```Bash
+unicorn tech_with_tim_example:app --reload
+```
+
+Go to http://127.0.0.1:8000
+Swagger docs at http://127.0.0.1:8000/docs
