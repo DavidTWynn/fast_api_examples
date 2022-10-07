@@ -7,8 +7,8 @@ from fastapi.staticfiles import StaticFiles
 
 
 # Instantiate the FastAPI object to be used
-app = FastAPI()
-#app = FastAPI(docs_url=None) # Testing dark mode
+# app = FastAPI()
+app = FastAPI(docs_url=None)  # Testing dark mode
 
 # Basic example of data to be used by the API
 devices = {
@@ -61,13 +61,13 @@ def get_by_name_and_or_query_parameter(device_id: int, info: str = None):
 
 # Working on getting dark mode
 
-# app.mount("/static", StaticFiles(directory="static"), name="static")
+app.mount("/static", StaticFiles(directory="static"), name="static")
 
 
-# @app.get("/docs", include_in_schema=False)
-# async def custom_swagger_ui_html():
-#     return get_swagger_ui_html(
-#         openapi_url=app.openapi_url,
-#         title=app.title + " - Swagger UI",
-#         swagger_css_url="/static/swagger-ui.css",
-#     )
+@app.get("/docs", include_in_schema=False)
+async def custom_swagger_ui_html():
+    return get_swagger_ui_html(
+        openapi_url=app.openapi_url,
+        title=app.title + " - Swagger UI",
+        swagger_css_url="/static/DarkReader-1---0-0-1--000.css",
+    )
