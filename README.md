@@ -36,7 +36,7 @@ Swagger docs at http://127.0.0.1:8000/docs
 
 ### Output
 
-<img src="images/fastapi_darkmode.JPG" width="50%" height="50%">
+<img src="images/fastapi_darkmode.JPG" width="100%" height="100%">
 
 ## Resources
 
