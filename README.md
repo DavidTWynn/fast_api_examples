@@ -42,6 +42,10 @@ Swagger docs at http://127.0.0.1:8000/docs
 
 Tech with Tim video - https://www.youtube.com/watch?v=-ykeT6kk4bk
 
+FastAPI Docs and tutorial user guide - https://fastapi.tiangolo.com/
+
+#### CSS
+
 CSS Base template - https://github.com/Itz-fork/Fastapi-Swagger-UI-Dark/tree/main/assets
 
 CSS Dark Mode changes - Pulled from DarkReader extension CSS Export
