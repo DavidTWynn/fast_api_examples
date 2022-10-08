@@ -7,6 +7,14 @@
 
 Repo for learning FastAPI and storing examples
 
+## Fast API Basics
+    1. Import fastapi
+    2. Create an instance of the FastAPI class
+    3. Write a path operation decorator (like @app.get("/"))
+    4. Write a path operation function (like def root(): ... below the decorator)
+    5. Run the development server (like uvicorn pythonfile:classinstance --reload)
+
+
 ## Setup
 
 ```Bash
@@ -29,3 +37,6 @@ Swagger docs at http://127.0.0.1:8000/docs
 ## Resources
 
 https://www.youtube.com/watch?v=-ykeT6kk4bk
+
+CSS Base template - https://github.com/Itz-fork/Fastapi-Swagger-UI-Dark/tree/main/assets
+CSS Dark Mode changes - Pulled from DarkReader extension CSS Export
