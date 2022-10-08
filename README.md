@@ -44,7 +44,7 @@ Tech with Tim video - https://www.youtube.com/watch?v=-ykeT6kk4bk
 
 FastAPI Docs and tutorial user guide - https://fastapi.tiangolo.com/
 
-#### CSS
+### CSS
 
 CSS Base template - https://github.com/Itz-fork/Fastapi-Swagger-UI-Dark/tree/main/assets
 
