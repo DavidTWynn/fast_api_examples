@@ -34,6 +34,10 @@ uvicorn tech_with_tim_example:app --reload
 Go to http://127.0.0.1:8000
 Swagger docs at http://127.0.0.1:8000/docs
 
+### Output
+
+<img src="images/fastapi_darkmode.JPG" width="50%" height="50%">
+
 ## Resources
 
 Tech with Tim video - https://www.youtube.com/watch?v=-ykeT6kk4bk
